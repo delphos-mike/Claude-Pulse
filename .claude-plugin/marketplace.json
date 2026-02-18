@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "pulse",
-      "source": ".",
+      "source": "./",
       "description": "Multi-surface activity pulse — orchestrates agents across GitHub, Slack, Linear, Fellow, and Notion to produce cross-referenced team activity summaries.",
       "version": "0.1.0",
       "author": {
