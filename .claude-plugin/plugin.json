@@ -1,0 +1,21 @@
+{
+  "name": "pulse",
+  "version": "0.1.0",
+  "description": "Multi-surface activity pulse — orchestrates agents across GitHub, Slack, Linear, Fellow, and Notion to produce cross-referenced team activity summaries.",
+  "author": {
+    "name": "Delphos Labs",
+    "url": "https://github.com/Delphos-Labs"
+  },
+  "repository": "https://github.com/Delphos-Labs/pulse-plugin",
+  "license": "MIT",
+  "keywords": ["pulse", "activity", "summary", "orchestration", "github", "slack", "linear", "fellow", "notion"],
+  "commands": [
+    "./commands/git-pulse.md",
+    "./commands/slack-pulse.md",
+    "./commands/linear-pulse.md",
+    "./commands/fellow-pulse.md",
+    "./commands/notion-pulse.md",
+    "./commands/pulse-summary.md"
+  ],
+  "skills": "./skills/"
+}

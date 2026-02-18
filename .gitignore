@@ -1,0 +1,11 @@
+# User config (may contain channel IDs, team info, emails)
+config/pulse-config.json
+
+# Pulse output
+pulse-output/
+
+# Claude project files
+.claude/
+
+# OS files
+.DS_Store

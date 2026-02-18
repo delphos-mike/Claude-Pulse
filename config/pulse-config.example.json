@@ -1,0 +1,51 @@
+{
+  "org_name": "Acme Corp",
+  "output_dir": "./pulse-output",
+  "surfaces": {
+    "github": {
+      "enabled": true,
+      "repos": [
+        { "owner": "acme-corp", "name": "api-server", "default_branch": "main" },
+        { "owner": "acme-corp", "name": "web-app", "default_branch": "main" }
+      ]
+    },
+    "slack": {
+      "enabled": true,
+      "channels": [
+        { "name": "#engineering", "id": "C0000000001", "purpose": "General engineering" },
+        { "name": "#product", "id": "C0000000002", "purpose": "Product discussions" },
+        { "name": "#general", "id": "C0000000003", "purpose": "Company-wide" }
+      ],
+      "post_summary_channel": {
+        "name": "#team-updates",
+        "id": "C0000000004"
+      }
+    },
+    "linear": {
+      "enabled": true,
+      "teams": [
+        { "name": "Engineering", "id": "uuid-here", "prefix": "ENG" },
+        { "name": "Product", "id": "uuid-here", "prefix": "PROD" }
+      ]
+    },
+    "fellow": {
+      "enabled": true,
+      "meeting_series": [
+        { "name": "All Hands", "cadence": "Weekly" },
+        { "name": "Sprint Planning", "cadence": "Biweekly" },
+        { "name": "Tech Talks", "cadence": "Ad hoc" }
+      ]
+    },
+    "notion": {
+      "enabled": true,
+      "report_database": {
+        "name": "Pulse Reports",
+        "id": "database-id-here"
+      }
+    }
+  },
+  "team": [
+    { "name": "Jane Doe", "github": "janedoe", "slack": "Jane Doe", "email": "jane@acme.com" },
+    { "name": "Bob Smith", "github": "bobsmith", "slack": "Bob Smith", "email": "bob@acme.com" }
+  ]
+}
