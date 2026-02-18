@@ -32,8 +32,31 @@ Mix and match — enable only the surfaces your team uses.
 
 ## Installation
 
+### From GitHub (recommended)
+
+Add the marketplace and install the plugin:
+
 ```bash
-claude plugin install https://github.com/delphos-mike/Claude-Pulse
+/plugin marketplace add https://github.com/delphos-mike/Claude-Pulse
+/plugin install pulse@claude-pulse
+```
+
+### From a local clone
+
+If you've cloned the repo locally:
+
+```bash
+git clone https://github.com/delphos-mike/Claude-Pulse.git
+/plugin marketplace add ./Claude-Pulse
+/plugin install pulse@claude-pulse
+```
+
+### For development/testing (session only)
+
+Load the plugin for the current session without installing:
+
+```bash
+claude --plugin-dir ./Claude-Pulse
 ```
 
 ## Setup

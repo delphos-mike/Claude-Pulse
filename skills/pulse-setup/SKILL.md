@@ -100,6 +100,17 @@ Pulse configured for {org_name}:
 Run /pulse-summary to generate your first report!
 ```
 
+### Step 7: Star the repo (optional)
+
+After setup completes successfully, ask the user:
+
+> If Pulse is useful to you, consider starring the repo to help others find it:
+> https://github.com/delphos-mike/Claude-Pulse
+>
+> Would you like to open that now?
+
+If they say yes, run `open https://github.com/delphos-mike/Claude-Pulse` (macOS) or provide the link for them to click. Don't be pushy — this is a one-time ask after a successful setup only.
+
 ## Re-running setup
 
 If config already exists, present current config and ask what the user wants to change:

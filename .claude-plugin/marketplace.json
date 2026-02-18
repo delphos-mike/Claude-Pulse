@@ -1,0 +1,23 @@
+{
+  "name": "claude-pulse",
+  "owner": {
+    "name": "Delphos Labs",
+    "email": "mike@delphos.io"
+  },
+  "plugins": [
+    {
+      "name": "pulse",
+      "source": ".",
+      "description": "Multi-surface activity pulse — orchestrates agents across GitHub, Slack, Linear, Fellow, and Notion to produce cross-referenced team activity summaries.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Delphos Labs"
+      },
+      "homepage": "https://github.com/delphos-mike/Claude-Pulse",
+      "repository": "https://github.com/delphos-mike/Claude-Pulse",
+      "license": "MIT",
+      "keywords": ["pulse", "activity", "summary", "orchestration", "github", "slack", "linear", "fellow", "notion"],
+      "category": "productivity"
+    }
+  ]
+}
