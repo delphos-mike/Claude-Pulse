@@ -33,7 +33,7 @@ Mix and match — enable only the surfaces your team uses.
 ## Installation
 
 ```bash
-claude plugin install https://github.com/Delphos-Labs/pulse-plugin
+claude plugin install https://github.com/delphos-mike/Claude-Pulse
 ```
 
 ## Setup

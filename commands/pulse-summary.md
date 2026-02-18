@@ -1,3 +1,8 @@
+---
+description: Combined cross-referenced activity summary across all configured surfaces
+argument-hint: "[brief] [no-post] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Pulse Summary — Combined Activity Summary
 
 You are generating a "Pulse Summary" — a unified, cross-referenced summary combining activity from all configured surfaces.

@@ -1,3 +1,8 @@
+---
+description: GitHub activity summary — PRs, commits, and review discussions
+argument-hint: "[repo:owner/name] [merged] [open] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Git Pulse — GitHub Activity Summary
 
 You are generating a "Git Pulse" — a structured summary of recent GitHub activity for a team.

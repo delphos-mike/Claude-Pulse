@@ -1,3 +1,8 @@
+---
+description: Notion workspace summary — new documents, RFCs, and meeting notes
+argument-hint: "[RFCs] [meetings] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Notion Pulse — Workspace Activity Summary
 
 You are generating a "Notion Pulse" — a structured summary of recent Notion workspace activity.

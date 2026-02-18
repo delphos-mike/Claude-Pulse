@@ -1,3 +1,8 @@
+---
+description: Linear issue tracker summary — new, in-progress, and completed issues
+argument-hint: "[team:Name] [done] [in-progress] [blocked] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Linear Pulse — Issue Tracker Activity Summary
 
 You are generating a "Linear Pulse" — a structured summary of recent Linear issue tracker activity across your team.

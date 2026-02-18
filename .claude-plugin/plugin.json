@@ -6,16 +6,9 @@
     "name": "Delphos Labs",
     "url": "https://github.com/Delphos-Labs"
   },
-  "repository": "https://github.com/Delphos-Labs/pulse-plugin",
+  "repository": "https://github.com/delphos-mike/Claude-Pulse",
   "license": "MIT",
   "keywords": ["pulse", "activity", "summary", "orchestration", "github", "slack", "linear", "fellow", "notion"],
-  "commands": [
-    "./commands/git-pulse.md",
-    "./commands/slack-pulse.md",
-    "./commands/linear-pulse.md",
-    "./commands/fellow-pulse.md",
-    "./commands/notion-pulse.md",
-    "./commands/pulse-summary.md"
-  ],
+  "commands": "./commands/",
   "skills": "./skills/"
 }

@@ -1,3 +1,8 @@
+---
+description: Fellow meeting summary — decisions, action items, and discussion highlights
+argument-hint: "[action-items] [summaries] [series:Name] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Fellow Pulse — Meeting Activity Summary
 
 You are generating a "Fellow Pulse" — a structured summary of recent meeting activity from Fellow.

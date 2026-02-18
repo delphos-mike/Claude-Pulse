@@ -1,3 +1,8 @@
+---
+description: Slack activity summary — discussions, announcements, and team themes
+argument-hint: "[#channel] [infra] [news] [person:Name] [topic:X] [since:DATE] [until:DATE]"
+---
+
 # Slack Pulse — Slack Activity Summary
 
 You are generating a "Slack Pulse" — a structured summary of recent Slack activity for a team.
